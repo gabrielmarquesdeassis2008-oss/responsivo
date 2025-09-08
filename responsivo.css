@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: black;
+    gap: 10px;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: brown;
+     display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+flex-direction: row;
+}
+nav{
+    
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+button{
+    width: 80%;
+    border-radius: 20%;
+    border: none;
+    margin: 10px;
+    border: none;
+
+}
+main{
+    width: 100vw;
+    height:80vh ;
+    background-color:chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+section{
+    width: 32%;
+    height: 60%;
+    background-color:antiquewhite;
+    margin: 2px;
+    border-radius: 5px;
+}
+footer{
+    width: 100vw;
+    height:10vh;
+    background-color:brown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 50%;
+}
+p{
+    text-align: center;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media(min-width:679px) and (max-width:1023px){
+  header{
+display: flex;
+flex-wrap: wrap;
+
+  }
+  nav{
+    width: 50%;
+    height: auto;
+  }
+ button{
+  border: none;
+  width: 100px;
+ }
+main{
+background-color: grey;
+flex-direction: column;
+}
+section{
+
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width: 60px;
+}
+ }
+
+
+@media (max-width:678px){
+    header{
+        width: 100vw;
+        height:25vh;
+        background-color: aquamarine;
+       flex-wrap: wrap;
+       display: flex;
+       padding: 5% 50%;
+
+
+    }
+    nav{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    }
+  button{
+    width: 90px;
+    background-color: white;
+    border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  main{
+    width: 100vw;
+ height: auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section{
+    width: 100%;
+    height: auto;
+    background-color: cornflowerblue;
+
+   
+  }
+footer{
+    width: 100vw;
+    height: 25vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+width: 15%;
+}
+}
+
